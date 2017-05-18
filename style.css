@@ -1,0 +1,28 @@
+.mygrid {
+    width: 600px;
+    display: grid;
+    margin:10px auto;
+    grid-gap: 10px ;
+    grid-template-areas: "header header"
+                         ".film "
+                         "footer footer";
+    
+grid-template-columns: 3fr 3fr;
+    
+grid-template-rows: 1fr 3fr 1fr
+}
+
+.mygrid:hover {
+    opacity: 0.2;
+}
+
+.mygrid>* {
+    border: 1px dashed white ;}
+
+header {grid-area: header;}
+  
+.film {grid-area: .film;}
+
+.photo {grid-area: .photo;}
+   
+footer {grid-area: footer;}
