@@ -40,8 +40,8 @@ ul{
 }
 
 ul img{
-    height: 20px;
-    margin-right: 15px;
+    height: 35px;
+    margin-right: 10px;
 }
 
 li{
@@ -61,41 +61,43 @@ li{
     margin-right: 20px
     
 }
-.projects{
+.grafika{
     width: 100%;
-    margin: 100px 0 50px;
-}
-.projects-cointainer{
-    max-width: 1080px;
-    display: flex;
-    margin: 0 auto;
-    height: auto;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-content: space-around;
-}
-.project-element{
-    width: 300px;
-    height: 200px;
-    background: #e2e2e2;
-    margin: 10px 0 30px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.project-element p{
-    visibility: hidden;
+    height: 500px;
+    background: #e1e1e1 url("icon/IMG_PARALAXA.jpg") center center/cover fixed;
     
 }
-.project-element a {
-    color: white;
-}
-.project-element:hover p{
-    visibility: visible;
+
+.tytul_projektu{
+    text-align: center;
+    font-size: 30px;
+    font-family: ;
 }
 
-#project1{
-    background: url("IMG/IMG_PARALAXA.jpg") center center;
+.opis_kontener {
+    max-width: 1080px;
+    margin: auto;
+}
+
+.photo_kontener {
+    text-align:center;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 10px 10px 30px;
+    
+}
+
+.photo_kontener img{
+    max-width: 640px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.opis_projektu{
+    max-width: 640px;
+    margin: auto;
+    text-align: justify;
+    padding: 20px 10px 50px;
 }
 
 footer{
@@ -111,11 +113,10 @@ footer p{
 }
 
 .footer-title{
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 20px 0 10px;
-    font-weight: bold;
 }
 
 .art-titles{
@@ -127,12 +128,12 @@ footer p{
     display: inline-block;
     text-align: center;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 16px;
     letter-spacing: 1px;
     padding: 0 10px;
 }
 
 .copyrights{
-    font-size: 8px;
+    font-size: 12px;
     padding: 10px;
 }
