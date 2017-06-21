@@ -61,77 +61,44 @@ li{
     margin-right: 20px
     
 }
-.projects{
+.grafika{
     width: 100%;
-    margin: 100px 0 50px;
-}
-.projects-cointainer{
-    max-width: 1080px;
-    display: flex;
-    margin: 0 auto;
-    height: auto;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-content: space-around;
-}
-.project-element{
-    width: 300px;
-    height: 200px;
-    margin: 10px 0 30px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: transform 2s;
-}
-.project-element p{
-    visibility: hidden;
+    height: 700px;
+    background: #e1e1e1 url("icon/IMG_PARALAXA.jpg") center center/cover fixed ;
     
 }
-.project-element a {
-    color: white;
-}
-.project-element:hover p{
-    visibility: visible;
+
+.tytul_projektu{
+    text-align: center;
+    font-size: 30px;
+    font-family: ;
 }
 
-.project-element:hover{
-    transform: scale(1.02,1.02);
+.opis_kontener {
+    max-width: 1080px;
+    margin: auto;
 }
 
-.project-cover {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height:100%;
-  width: 100%;
+.photo_kontener {
+    text-align:center;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 10px 10px 30px;
+    
 }
 
-.project-cover:hover {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+.photo_kontener img{
+    max-width: 640px;
+    height: auto;
+    padding-bottom: 20px;
 }
 
-#project1{
-    background: url("IMG/knotty_icon.jpg") center center;
-}
 
-#project2{
-    background: url(IMG/elephant_icon.jpg) center center;
-}
-
-#project3{
-    background: url("IMG/opening_icon.jpg") center center;
-}
-
-#project4{
-    background: url("IMG/IMG_PARALAXA.jpg") center center;
-}
-
-#project5{
-    background: url("IMG/poprostej_icon.jpg") center center;    
-}
-
-#project6{
-    background: url("IMG/summer_icon.jpg") center center;
+.opis_projektu{
+    max-width: 640px;
+    margin: auto;
+    text-align: justify;
+    padding: 20px 10px 50px;
 }
 
 footer{
